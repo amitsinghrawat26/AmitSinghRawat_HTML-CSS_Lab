@@ -1,0 +1,38 @@
+#graph{
+    background-color: rgb(196, 196, 196);
+    height: 600px;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    top: 25%;
+    left: 30%;
+    position: absolute;
+}
+
+.bar{
+    height: 500px;
+    background-color: white;
+    width: 50px;    
+    color: gray;
+}
+
+p{
+    width: 30px;
+    margin: 0;
+}
+
+.bar-data{
+    height: 600px;
+    margin: 15px;
+    padding-top: 20px;
+}
+
+#bar-heading{
+    display:  block;
+    text-align: center;
+}
+
+@keyframes grow{
+    from { height: 0; }
+    to { height: var(--height); }
+}
