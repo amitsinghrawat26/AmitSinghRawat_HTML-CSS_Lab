@@ -1,35 +1,41 @@
 #graph{
-    background-color: rgb(196, 196, 196);
-    height: 600px;
-    width: 400px;
+    background-color: rgb(196, 196, 196,0.4);
+    height: fit-content;
+    width: fit-content;
     align-items: center;
-    display: flex;
     top: 25%;
     left: 30%;
+    padding: 20px;
     position: absolute;
+}
+
+.bars{
+    display: flex;
 }
 
 .bar{
     height: 500px;
     background-color: white;
-    width: 50px;    
-    color: gray;
+    width: 50px;
+
+    color: calc(--height) rgb(116, 116, 204);
 }
 
 p{
     width: 30px;
-    margin: 0;
+    padding: 5px;
 }
 
 .bar-data{
-    height: 600px;
-    margin: 15px;
+    height: fit-content;
+    margin: 15px; 
     padding-top: 20px;
 }
 
 #bar-heading{
-    display:  block;
     text-align: center;
+    top: 85%;
+    left: 40%;
 }
 
 @keyframes grow{

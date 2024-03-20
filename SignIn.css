@@ -4,29 +4,48 @@ body{
 }
 
 .div-signin{
-    text-align: center;
-    background-color: rgb(253, 251, 251,0.7);
+    background-color: rgb(253, 251, 251,0.2);
     height: fit-content;
     width: fit-content;
-    top: 50%;
+    top: 20%;
     left: 50%;
-    position: relative;
+    position: absolute;
     padding: 20px;
     line-height: 25px;
-    border: rgb(236, 236, 236,0.1) solid 2px;
+    border: rgb(236, 236, 236,0.3) solid 2px;
+}
+
+h2{
+    background-color: rgb(253, 251, 251,0.01);
 }
 
 input{
     font-family: 'Times New Roman', Times, serif;
     border: 0;
     border-bottom: 2px gray solid;
+    width: 100%;
     font-size: large;
+    margin-top: 7px;
 }
 
 button{
     margin-top: 20px;
+    padding: 5px;
     font-weight: bold;
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(160, 60, 253);
     border: 0;
+    border-radius: 5px;
+}
+
+.submit{
+    margin-left: 15px;
+}
+
+input:hover{
+    background-color: rgba(146, 146, 252, 0.2);
+}
+
+button:hover{
+    background-color: rgb(137, 11, 255);
 }
