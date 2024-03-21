@@ -1,12 +1,13 @@
 #graph{
-    background-color: rgb(196, 196, 196,0.4);
+    background-color: rgb(236, 228, 228);
     height: fit-content;
     width: fit-content;
     align-items: center;
-    top: 25%;
+    top: 15%;
     left: 30%;
     padding: 20px;
     position: absolute;
+    border-radius: 5px;
 }
 
 .bars{
@@ -15,27 +16,63 @@
 
 .bar{
     height: 500px;
-    background-color: white;
     width: 50px;
+    background-color: rgb(161, 161, 161);
+}
 
-    color: calc(--height) rgb(116, 116, 204);
+.bar1{
+    background-color: rgb(255, 255, 255);
+    height: 70%;
+    animation-name: bar1_animation;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bar1_animation {
+    from { height: 0;}
+    to { height: 70%; }
+}
+
+.bar2{
+    background-color: rgb(255, 255, 255);
+    height: 60%;
+    animation-name: bar2_animation;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bar2_animation {
+    from { height: 0;}
+    to { height: 60%; }
+}
+
+.bar3{
+    background-color: rgb(255, 255, 255);
+    height: 20%;
+    animation-name: bar3_animation;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bar3_animation {
+    from { height: 0;}
+    to { height: 20%; }
 }
 
 p{
     width: 30px;
-    padding: 5px;
+    padding-left: 10px;
 }
 
 .bar-data{
-    height: fit-content;
+    height: 500px;
     margin: 15px; 
     padding-top: 20px;
 }
 
 #bar-heading{
+    padding-top: 20px;
     text-align: center;
-    top: 85%;
-    left: 40%;
 }
 
 @keyframes grow{
