@@ -29,7 +29,7 @@
 }
 
 @keyframes bar1_animation {
-    from { height: 0;}
+    from { height: 100%;}
     to { height: 70%; }
 }
 
@@ -42,7 +42,7 @@
 }
 
 @keyframes bar2_animation {
-    from { height: 0;}
+    from { height: 100%;}
     to { height: 60%; }
 }
 
@@ -55,7 +55,7 @@
 }
 
 @keyframes bar3_animation {
-    from { height: 0;}
+    from { height: 100%;}
     to { height: 20%; }
 }
 
